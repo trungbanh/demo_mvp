@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/a"
+            android:paddingRight="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btn_editstatus"
+            android:hint="bạn đang nghĩ gì..."
+            android:background="@drawable/back_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/img_img"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/image"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
