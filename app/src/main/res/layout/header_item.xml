@@ -2,17 +2,24 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:layout_marginBottom="4dp"
+    >
     <LinearLayout
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        >
         <ImageView
             android:src="@drawable/a"
             android:paddingRight="10dp"
             android:layout_width="50dp"
             android:layout_height="50dp" />
-
         <Button
             android:id="@+id/btn_editstatus"
             android:hint="bạn đang nghĩ gì..."
@@ -28,6 +35,4 @@
             android:layout_width="50dp"
             android:layout_height="40dp" />
     </LinearLayout>
-
-
 </LinearLayout>

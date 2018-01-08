@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
-        mActionBar = getSupportActionBar();
-        mActionBar.setDisplayHomeAsUpEnabled(true);
-        mActionBar.setDisplayShowHomeEnabled(true);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
+//        mActionBar = getSupportActionBar();
+//        mActionBar.setDisplayHomeAsUpEnabled(true);
+//        mActionBar.setDisplayShowHomeEnabled(true);
 
         imgCam = findViewById(R.id.img_camera);
         imgCam.setOnClickListener(new View.OnClickListener() {

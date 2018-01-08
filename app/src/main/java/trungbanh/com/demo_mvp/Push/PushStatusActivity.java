@@ -10,7 +10,7 @@ import android.widget.EditText;
 import trungbanh.com.demo_mvp.Main.MainActivity;
 import trungbanh.com.demo_mvp.R;
 
-public class PushStatusActivity extends AppCompatActivity implements MainContract {
+public class PushStatusActivity extends AppCompatActivity  {
 
     EditText editText;
     Button button;
